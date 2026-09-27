@@ -1,0 +1,26 @@
+{
+  "name": "crud-courses-prisma",
+  "version": "1.0.0",
+  "description": "CRUD completo da tabela Courses usando Prisma Client puro, sem API/rotas",
+  "main": "src/Courses/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "create": "node src/Courses/create.js",
+    "findAll": "node src/Courses/findAll.js",
+    "findById": "node src/Courses/findById.js",
+    "update": "node src/Courses/update.js",
+    "delete": "node src/Courses/delete.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "keywords": ["prisma", "crud", "sqlite", "orm", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.20.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  }
+}
